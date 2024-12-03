@@ -13,6 +13,10 @@ header {
 header span {
   font-weight: bold;
 }
+header .logo {
+  width: 35px;
+  height: 36.23px;
+}
 header .menu {
   display: flex;
   gap: 40px;
