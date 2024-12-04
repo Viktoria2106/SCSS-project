@@ -30,6 +30,16 @@ header .menu {
   color: #4F5665;
 }
 header .in {
+  border: none;
+  background-color: transparent;
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  line-height: 18.96px;
+  font-size: 16px;
+  color: #0B132A;
+  margin-right: 20px;
+}
+header .up {
   border: 1px solid #F53855;
   border-radius: 50px;
   height: 45px;
@@ -43,6 +53,7 @@ header .in {
 
 .information {
   display: flex;
+  margin-left: 150px;
 }
 .information.inf {
   flex-direction: column;
@@ -88,4 +99,20 @@ header .in {
   margin-right: 83px;
   margin-left: 40.76px;
   margin-top: 101px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 1140px;
+  height: 200px;
+}
+.menu.ava {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.menu.user {
+  grid-column: 1/2;
+  grid-row: 1/3;
 }/*# sourceMappingURL=style.css.map */
