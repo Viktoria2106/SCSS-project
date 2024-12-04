@@ -11,6 +11,14 @@ header {
     span {
         font-weight: bold;
     }
+    .logotip {
+        display: flex;
+        flex-direction: row;
+
+        &lasles {
+            width:36.23px ;
+        }
+    }
     .logo {
         width: 35px;
         height: 36.23px;
@@ -21,7 +29,7 @@ header {
         gap: 40px ;
         color: #4F5665;
     }
-    button {
+    .in {
         border: 1px solid #F53855;
         border-radius: 50px;
         height: 45px;
@@ -30,5 +38,59 @@ header {
         background-color: transparent;
         color: #F53855;
         font-weight: 500;
+        cursor: pointer;
       }
-}
+    }
+
+    .information {
+        display: flex;
+
+        &.inf {
+            flex-direction: column;
+            grid-gap: 20px;
+        }
+        h1 {
+            font-weight: 500;
+            margin-top: 101px;
+            font-size: 50px;
+            line-height: 70px;
+            font-family: Rubik, sans-serif;
+            color: #0B132A;
+
+            span {
+                font-weight: 700;
+            }
+        }
+        h2 {
+            font-family: Rubik, sans-serif;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 30px;
+            color: #4F5665;
+            span {
+                font-family: Rubik, sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                color: #4F5665;
+            }
+        }
+        button {
+            margin-top:30px;
+            background-color: #F53838;
+            width: 250px;
+            height: 60px;
+            border-radius: 10px;
+            font-size: 16px;
+            color: #FFFFFF;
+            border: none;
+            font-family: Rubik, sans-serif;
+            cursor: pointer;
+        }
+        .photo {
+            margin-right: 83px;
+            margin-left: 40.76px;
+            margin-top: 101px;
+        }
+    }
+
+ 
