@@ -1,8 +1,7 @@
 body {
   position: relative;
 }
-
-header {
+body header {
   display: flex;
   justify-content: space-between;
   margin-left: 150px;
@@ -10,26 +9,26 @@ header {
   font-size: 16px;
   line-height: 18.96px;
 }
-header span {
+body header span {
   font-weight: bold;
 }
-header .logotip {
+body header .logotip {
   display: flex;
   flex-direction: row;
 }
-header .logotiplasles {
+body header .logotiplasles {
   width: 36.23px;
 }
-header .logo {
+body header .logo {
   width: 35px;
   height: 36.23px;
 }
-header .menu {
+body header .menu {
   display: flex;
   gap: 40px;
   color: #4F5665;
 }
-header .in {
+body header .in {
   border: none;
   background-color: transparent;
   font-family: Rubik, sans-serif;
@@ -39,7 +38,7 @@ header .in {
   color: #0B132A;
   margin-right: 20px;
 }
-header .up {
+body header .up {
   border: 1px solid #F53855;
   border-radius: 50px;
   height: 45px;
@@ -50,16 +49,15 @@ header .up {
   font-weight: 500;
   cursor: pointer;
 }
-
-.information {
+body .information {
   display: flex;
   margin-left: 150px;
 }
-.information.inf {
+body .information.inf {
   flex-direction: column;
   grid-gap: 20px;
 }
-.information h1 {
+body .information h1 {
   font-weight: 500;
   margin-top: 101px;
   font-size: 50px;
@@ -67,23 +65,23 @@ header .up {
   font-family: Rubik, sans-serif;
   color: #0B132A;
 }
-.information h1 span {
+body .information h1 span {
   font-weight: 700;
 }
-.information h2 {
+body .information h2 {
   font-family: Rubik, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   color: #4F5665;
 }
-.information h2 span {
+body .information h2 span {
   font-family: Rubik, sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #4F5665;
 }
-.information button {
+body .information button {
   margin-top: 30px;
   background-color: #F53838;
   width: 250px;
@@ -95,24 +93,69 @@ header .up {
   font-family: Rubik, sans-serif;
   cursor: pointer;
 }
-.information .photo {
+body .information .photo {
   margin-right: 83px;
   margin-left: 40.76px;
   margin-top: 101px;
 }
-
-.menu {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+body .menu1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 1140px;
   height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 104px;
 }
-.menu.ava {
-  grid-column: 1/2;
-  grid-row: 1/3;
+body .menu1 .ava {
+  width: 24px;
+  height: 24px;
 }
-.menu.user {
-  grid-column: 1/2;
-  grid-row: 1/3;
+body .menu1 .loc {
+  width: 24px;
+  height: 24px;
+}
+body .menu1 .ser {
+  width: 24px;
+  height: 24px;
+}
+body .menu1 .vector {
+  height: 125px;
+}
+body .menu1 .user {
+  flex-direction: column;
+  gap: 5px;
+}
+body .menu1 span {
+  color: #0B132A;
+  font-family: Rubik, sans-serif;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 25px;
+}
+body .menu1 p {
+  font-family: Rubik, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4F5665;
+}
+body .ilustration {
+  display: flex;
+}
+body .ilustration .chekList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body .ilustration .chekList img {
+  width: 24px;
+  height: 24px;
+}
+body .ilustration .chekList p {
+  font-family: Rubik, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
 }/*# sourceMappingURL=style.css.map */
