@@ -154,6 +154,9 @@ header {
 
     .ilustration {
         display: flex;
+        justify-content: start;
+        margin-left: 184.52px;
+        margin-top: 95px;
 
         .chekList {
             display: flex;
@@ -171,7 +174,150 @@ header {
                 line-height: 30px;
             }
         }
+    
+        h1 {
+            font-family: Rubik, sans-serif;
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 50px;
+            color: #0B132A;
+        }
+        h2 {
+            font-family: Rubik, sans-serif;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 30px;
+            color: #4F5665;
+        }
+        .chek {
+            text-align: left;
+            font-family: Rubik, sans-serif;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 30px;
+            color: #4F5665;
+            margin: 0;
+        }
     }
+
+    /*.tariffs {
+        
+
+
+        h1 {
+            display: block;
+        }
+        .offer {
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                font-family: Rubik, sans-serif;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 30px;
+                color: #0B132A;
+    
+                span {
+                    font-family: Rubik, sans-serif;
+                    font-weight: normal;
+                    font-size: 25px;
+                    line-height: 30px;
+                    color: #4F5665;
+                }
+        }
+        img {
+            width: 144.9px;
+            height: 165.37px;
+            
+        }
+        h3 {
+            font-family: Rubik, sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            color: #0B132A;
+    }
+        button {
+        background-color: transparent;
+        color: #F53838;
+        font-family: Rubik, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18.96px;
+        border: 2px solid #F53838;
+        border-radius: 10px;
+
+        }
+        }*/
+
+    .tariffs {
+        h1 {
+            margin-top: 80px;
+            color: #0B132A;
+            font-family: Rubik, sans-serif;
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: Rubik, sans-serif;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 30px;
+            color: #4F5665;
+            text-align: center;
+        }
+
+        .offer {
+            display: flex;
+            flex-direction: column;
+
+            .box {
+                width: 144.9px;
+                height: 165.37px;
+            }
+            .chekbox {
+                width: 24px;
+                height: 24px;
+            }
+
+            h2 {
+                font-family: Rubik, sans-serif;
+                font-weight: 500px;
+                font-size: 25px;
+                line-height: 30px;
+                color: #0B132A;
+
+                span {
+                    font-family: Rubik, sans-serif;
+                    font-weight: normal;
+                    font-size: 25px;
+                    line-height: 30px;
+                    color: #4F5665;
+                }
+            }
+            button {
+                background-color: transparent;
+                color: #F53838;
+                font-family: Rubik, sans-serif;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 18.96px;
+                border: 2px solid #F53838;
+                border-radius: 10px;
+
+                &.sell {
+                    background-color: #F53838;
+                    color: white;
+                }
+                
+            }
+        }
+    }
+        
 }
 
 
