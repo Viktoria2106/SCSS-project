@@ -1,5 +1,6 @@
 body {
   position: relative;
+  font-family: Rubik, sans-serif;
 }
 body header {
   display: flex;
@@ -22,6 +23,7 @@ body header .logotiplasles {
 body header .logo {
   width: 35px;
   height: 36.23px;
+  margin-left: 0;
 }
 body header .menu {
   display: flex;
@@ -37,6 +39,11 @@ body header .in {
   font-size: 16px;
   color: #0B132A;
   margin-right: 20px;
+  cursor: pointer;
+}
+body header .in:hover {
+  color: #4F5665;
+  text-decoration: underline;
 }
 body header .up {
   border: 1px solid #F53855;
@@ -49,6 +56,10 @@ body header .up {
   font-weight: 500;
   cursor: pointer;
 }
+body header .up:hover {
+  background-color: #F53838;
+  color: #DDDDDD;
+}
 body .information {
   display: flex;
   margin-left: 150px;
@@ -56,6 +67,7 @@ body .information {
 body .information.inf {
   flex-direction: column;
   grid-gap: 20px;
+  width: 555px;
 }
 body .information h1 {
   font-weight: 500;
@@ -92,6 +104,12 @@ body .information button {
   border: none;
   font-family: Rubik, sans-serif;
   cursor: pointer;
+}
+body .information button:hover {
+  background-color: #FFFFFF;
+  color: #F53838;
+  font-weight: bold;
+  border: 2px solid #F53838;
 }
 body .information .photo {
   margin-right: 83px;
@@ -148,6 +166,9 @@ body .ilustration {
   justify-content: start;
   margin-left: 184.52px;
   margin-top: 95px;
+}
+body .ilustration .men {
+  margin-right: 169px;
 }
 body .ilustration .chekList {
   display: flex;
