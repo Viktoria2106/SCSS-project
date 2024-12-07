@@ -238,20 +238,32 @@ body .tariffs .offer {
   text-align: center;
   display: flex;
   flex-direction: column;
-  border: 1px solid #DDDDDD;
+  border: 2px solid #DDDDDD;
   border-radius: 10px;
   width: 330px;
   height: 760px;
+}
+body .tariffs .offer.box3 {
+  border: 2px solid #F53838;
+}
+body .tariffs .offer .box1 {
+  display: inline;
+}
+body .tariffs .offer .box1 .line {
+  display: flex;
+  flex-direction: row;
 }
 body .tariffs .offer .box {
   width: 144.9px;
   height: 165.37px;
   align-self: center;
+  margin-top: 97.84px;
+  margin-bottom: 30px;
 }
 body .tariffs .offer .chekbox {
   width: 24px;
   height: 24px;
-  align-items: center;
+  float: inline-start;
 }
 body .tariffs .offer p {
   align-items: center;

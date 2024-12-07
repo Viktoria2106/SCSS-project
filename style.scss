@@ -266,22 +266,39 @@ header {
             text-align: center;
             display: flex;
             flex-direction: column;
-            border: 1px solid #DDDDDD;
+            border: 2px solid #DDDDDD;
             border-radius: 10px;
             width: 330px;
             height: 760px;
+
+            &.box3 {
+                border: 2px solid #F53838;
+            }
+
+            .box1 {
+                display: inline;
+
+               .line {
+                display: flex;
+                flex-direction: row;
+               }
+            }
 
 
             .box {
                 width: 144.9px;
                 height: 165.37px;
                 align-self: center;
+                margin-top: 97.84px;
+                margin-bottom: 30px;
             }
             .chekbox {
                 width: 24px;
                 height: 24px;
-                align-items: center;
+                float: inline-start;
             }
+
+
             p {
                 align-items: center;
                 font-family: Rubik, sans-serif;
