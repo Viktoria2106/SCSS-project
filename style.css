@@ -345,7 +345,14 @@ body .map h2span {
 body .map .carta {
   margin-left: 400px;
 }
-body .reviews h1 {
+body .human h2 {
+  color: #4F5665;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+body .human .reviews h1 {
   font-family: Rubik, sans-serif;
   font-weight: 500;
   font-size: 35px;
@@ -353,7 +360,8 @@ body .reviews h1 {
   align-items: center;
   color: #0B132A;
 }
-body .reviews h2 {
-  color: #4F5665;
-  font-family: Rubik, sans-serif;
+body .human .reviews .evaluation {
+  width: 400px;
+  height: 230px;
+  border: 2px solid #F53838;
 }/*# sourceMappingURL=style.css.map */
