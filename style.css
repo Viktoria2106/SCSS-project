@@ -344,4 +344,16 @@ body .map h2span {
 }
 body .map .carta {
   margin-left: 400px;
+}
+body .reviews h1 {
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  align-items: center;
+  color: #0B132A;
+}
+body .reviews h2 {
+  color: #4F5665;
+  font-family: Rubik, sans-serif;
 }/*# sourceMappingURL=style.css.map */
