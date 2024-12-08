@@ -214,6 +214,7 @@ header {
             font-size: 16px;
             line-height: 30px;
             color: #4F5665;
+            margin-bottom: 300px;
         }
         .chek {
             text-align: left;
@@ -231,29 +232,39 @@ header {
         flex-direction: row;
         gap: 50px;
         justify-content: center;
+        
 
         .box {
             width: 144.9px;
             height: 165.37px;
-            margin-top:97px ;
+            margin-top:60px ;
         }
         .offer1 {
             text-align: center;
             align-items: center;
             width: 330px;
-            height: 760px;
+            height: 960px;
             border: 2px solid #DDDDDD;
             border-radius: 10px;
 
             .gal {
                 float: left;
             }
+            .card1 {
+                margin-bottom: 130px;
+                gap: 10px;
+            }
+            .card2 {
+                margin-bottom: 90px;
+            }
+            .card3 {
+               margin-bottom: 10px;
+            }
 
             .line {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                
                 gap: 20px;
                 width: 100%;
                 margin: 0 auto;
@@ -286,7 +297,37 @@ header {
             line-height: 30px;
         }
         h2 {
-            
+            font-family: Rubik, sans-serif;
+            font-weight: 500;
+            font-size: 25px;
+            color: #0B132A;
+            margin: 0;
+            span {
+                font-family: Rubik, sans-serif;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 30px;
+                color: #4F5665;
+            }
+        }
+        button {
+            border: 2px solid #F53838;
+            border-radius: 50px;
+            color: #F53838;
+            font-family: Rubik, sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.96px;
+            background-color: transparent;
+            margin-top: 20px;
+
+            &.sel {
+                background-color: #F53838;
+                color: #FFFFFF;
+            }
+        }
+        .box3 {
+            border: 2px solid #F53838;
         }
 
         
