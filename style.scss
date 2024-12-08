@@ -350,6 +350,33 @@ header {
         color: #4F5665;
         text-align: center;
     }
+
+    .map {
+        h1 {
+            font-family: Rubik, sans-serif;
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 50px;
+            color: #0B132A;
+            margin-top: 150px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-family: Rubik, sans-serif;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 30px;
+            color: #4F5665;
+            text-align: center;
+            margin-bottom: 155.81px;
+            &span {
+                font-weight: 500;
+            }
+        }
+        .carta {
+            margin-left: 400px;
+        }
+    }
 }
 
 
